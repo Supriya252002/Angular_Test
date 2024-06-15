@@ -2,12 +2,15 @@
 This repository showcases my implementation of an Angular test, demonstrating proficiency in Angular development and web application design. The repository includes several completed tasks as specified in the test requirements.
 
 Task-1:-The user should be able to navigate between Home, Create User, and User Listing routes. The User Listing route should display 10 cards, each containing titles and images fetched from the JSONPlaceholder API.
+
 ![Task1-image](https://github.com/Supriya252002/angular_test/assets/116082297/ddd33d36-4a49-4bd3-a158-2b297e005f7b)
 
 Task-2:-Display dummy user lists in the form of tables.
+
 ![Task2-image](https://github.com/Supriya252002/angular_test/assets/116082297/95472b52-16d4-42cf-84b4-c690b99ace67)
 
 Task-3:-Implement reactive forms with comprehensive validation. Additionally, upon submission, integrate a feature that dynamically creates a card displaying the submitted user details.
+
 ![Task3-image](https://github.com/Supriya252002/angular_test/assets/116082297/12e3d771-3193-4e41-86fd-1302b08adb0c)
 
 ![Task3-output_image](https://github.com/Supriya252002/angular_test/assets/116082297/74f3dd84-6524-4b2a-9769-2ca00eab978c)
