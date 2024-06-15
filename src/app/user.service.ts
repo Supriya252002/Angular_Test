@@ -14,7 +14,7 @@ export class UserService {
 
   constructor(private http: HttpClient) { }
 
-  //Task-3(First One)CreateUser Method from user service
+  //Task-CreateUser Method from user service
 
   createuser(task: Task) {
     const headers = new HttpHeaders({ 'my-header': 'Hello World' });
@@ -28,8 +28,7 @@ export class UserService {
     return of('User saved successfully!');
   }
 
-  //Task-3(Second one)
-  // New function to return a list of dummy users
+  //Task- New function to return a list of dummy users
   getDummyUsers(): Observable<any[]> {
 
     const dummyUsers: any[] = [

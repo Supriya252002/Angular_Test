@@ -1,6 +1,3 @@
-/* user-listing.component.css */
-
-
 .container {
     margin: 20px auto;
     text-align: center;
@@ -15,7 +12,7 @@
     
   table {
     width: 50%;
-    margin: 0 auto; /* Auto margin for centering the table horizontally */
+    margin: 0 auto; 
     border-collapse: collapse;
     margin-bottom: 20px;
   }
@@ -40,7 +37,7 @@
     border-radius: 5px;
   }
   
-  /* Optional: Hover effect for the Add New User button */
+
   .add-user-button:hover {
     background-color: #45a049;
   }
