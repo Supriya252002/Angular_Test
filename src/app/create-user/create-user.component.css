@@ -1,0 +1,143 @@
+.border {
+  background-color: rgb(229, 235, 235);
+}
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+select {
+  width: 40%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #fb4407;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-btn-primary {
+  height: 50px;
+  width: 50%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #E7005E;
+
+}
+
+.center-align {
+  text-align: center;
+}
+
+input.ng-invalid.ng-touched {
+  border: red 2px solid;
+}
+
+small {
+  color: red;
+  font-weight: bold;
+}
+
+.submitmsg {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.form-control{
+  width:100%;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.input-box label {
+  color: #0b0b0b;
+  padding: 10px;
+}
+
+.form .column {
+  display: flex;
+  column-gap: 15px;
+  padding: 20px;
+}
+
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #595555;
+  font-size: 1rem;
+}
+
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card {
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body p {
+  text-align: left; 
+}
+
+
+.card-body h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .form-control{
+    width:100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin: 0 10px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+}

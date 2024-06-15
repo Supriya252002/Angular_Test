@@ -1,0 +1,15 @@
+<!--Task-06 show only 10 cards with title and images from jsonplaceholder api-->
+<div class="container">
+  <h1>Cards</h1>
+
+<div class="container1">
+<div class="card"  *ngFor="let item of cards">
+    <img class="image" src="{{item.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="cardtitle">{{item.cardtitle}}</h5>
+      <p></p>
+      <a href="#" class="btn btn-primary">Click Me</a>
+    </div>
+  </div>
+  </div>
+  </div>

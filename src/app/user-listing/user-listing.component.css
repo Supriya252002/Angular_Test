@@ -1,0 +1,47 @@
+/* user-listing.component.css */
+
+
+.container {
+    margin: 20px auto;
+    text-align: center;
+   
+  }
+
+  .container h1{
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+    
+  table {
+    width: 50%;
+    margin: 0 auto; /* Auto margin for centering the table horizontally */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .add-user-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Optional: Hover effect for the Add New User button */
+  .add-user-button:hover {
+    background-color: #45a049;
+  }
+  

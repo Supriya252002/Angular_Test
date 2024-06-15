@@ -1,0 +1,25 @@
+<!-- Task- User-Listing  -->
+<!---Show Table - List of users-->
+<div class="container"> 
+    <h1>UserListing</h1>
+    <table>
+      <thead> 
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users$ | async">
+          <td>{{user.id}}</td>
+          <td>{{user.name}}</td>
+          <td>{{user.email}}</td>
+        </tr>
+      </tbody>
+      
+    </table>
+    <!--- Add new user button (clicking this should route to add user)-->
+    <a routerLink="/create" class="add-user-button">Add New User</a>
+  </div>
+  

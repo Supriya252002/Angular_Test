@@ -1,0 +1,33 @@
+.active{
+    font-size:20px;
+}
+.navbar-brand {
+    font-size: 24px;
+    color: #5e2ced; /* Customize the color */
+}
+
+.nav-item {
+    font-size: 18px;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.nav-item:hover {
+    color: #5e2ced; /* Customize the hover color */
+}
+
+.nav-item.active {
+    font-size: 20px;
+    color: #5e2ced; /* Customize the active link color */
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .nav-item {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
